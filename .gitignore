@@ -1,0 +1,99 @@
+# Environnement Conda
+.conda/
+conda-meta/
+envs/
+pkgs/
+
+# Fichiers de données temporaires
+input.txt
+output.txt
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environnements virtuels Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers système
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Fichiers de configuration locaux
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers temporaires
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*.old
+
+# Fichiers de cache
+.cache/
+*.cache
+
+# Fichiers de base de données locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Fichiers de clés et certificats
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Fichiers de modèles Ollama locaux (optionnel)
+# Décommentez si vous ne voulez pas partager vos modèles personnalisés
+# models/
+# *.gguf
+# *.safetensors 
